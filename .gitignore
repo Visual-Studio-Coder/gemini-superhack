@@ -1,0 +1,31 @@
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+
+# Runtime output and generated media
+*.log
+*.mp4
+
+# macOS metadata
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+
+# Local tooling
+.vercel/
+.idea/
+.vscode/
